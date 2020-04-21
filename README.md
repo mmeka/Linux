@@ -47,6 +47,7 @@ sort
 
 # Users, groups and privileges
 sudo
+> sudo -s (will change to root user)
 su
 
 # File permissions
@@ -60,6 +61,16 @@ su
 # Aliasing
 > alias lx = "ls -lX"
 
+# Process management
+> top (press i to see only running processes. press "s" and delay can be changed to different time. Example. "1,0")
+> pidof "process name"
+> kill <process_id>
+> kill -9 <process_id> (-9 is the option to kill an unresposive process)
+> kill -KILL <process_id> (force kill)
+>ps -uX
+> ps -U <username> (lists processes running by the specific user)
+> ps -C <program_name> (shows all the programs of specific app)
+
 # References
 > man <command_name>
 
@@ -72,3 +83,5 @@ how to merge two directories?
 how to move just the contents of one directory to another without transferring the directory itself?
 sudo - how to increase the session time before re-authentication?
 ssh remote??
+how to kill a specific Java process among several of those? can a process be identified based on the port it uses?
+how to find process id by partial name?
