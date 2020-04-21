@@ -9,3 +9,8 @@ Putty - always use the installer version. Standlone will not work. Choose SSH op
 
 # References
 https://youtu.be/4P23_rhyTgc
+
+# Touch
+> touch zzz{1..10}.txt  to generate multiple files with a pattern
+
+# Peek
