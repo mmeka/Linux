@@ -25,6 +25,9 @@ https://youtu.be/4P23_rhyTgc
 > cp -pi <file1> <file2> <destination_directory> (option 'p' to preserve the timestamp of original file. option 'i' warns before overwriting)
 > cp <old_file_name> <new_file_name>
 > cp -R <directory1> <directory2> (recursive copy. if the destination not present, new directory is created. otherwise, a new sub-directory with contents of source is copied to destination)
+> mv -i <file1> <file2> <destination_directory> (move multiple files to new destination. asks before overwriting)
+> mv <file_name> <new_file_name> (to rename file)
+> mv <directory> <destination_directory> (if new directory exists, old one along with it's contents will be moved into the new one. if new one doesn't exist, just a rename happens.)
 > ls -a (to list hidden files and directories. Files prefixed with a dot.)
 > ls -ltr (to list files in long format sorted by timestamp latest first)
 > ls -d (only directories)
@@ -40,6 +43,7 @@ sort
 > cat > <file_name> (to write to text to file)
 > cat >> <file_name> (to append text to file at the end)
 > cat <file1> <file2> <output_file>   (concatenates the content and writes to 3rd file)
+> less <file_name> (starting from the top, content is displayed. arrows for line by line. space to navigate down by page. B or b to navigate up by page. G to end of file. g goes to Top. Top-down search, use "/<word_to_search>". Bottom-up search, use "?<work_to_search>". Press "n" to search for next instance of the word.)
 
 # Users, groups and privileges
 sudo
@@ -65,3 +69,4 @@ how to sort listing of files by extension, timestamp, name and then by size?
 command to look at log files and tail those logs?
 sudo vs su?
 how to merge two directories?
+how to move just the contents of one directory to another without transferring the directory itself?
