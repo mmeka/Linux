@@ -70,3 +70,5 @@ command to look at log files and tail those logs?
 sudo vs su?
 how to merge two directories?
 how to move just the contents of one directory to another without transferring the directory itself?
+sudo - how to increase the session time before re-authentication?
+ssh remote??
