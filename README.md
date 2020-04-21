@@ -25,7 +25,27 @@ https://youtu.be/4P23_rhyTgc
 > ls -ltr (to list files in long format sorted by timestamp latest first)
 > ls -d (only directories)
 
+# Searching files
+> grep
+> find
+sort
+
 # Peek
+> cat <file_name>
+> cat > <file_name> (to write to text to file)
+> cat >> <file_name> (to append text to file at the end)
+
+# Users, groups and privileges
+sudo
+su
+
+# File permissions
+> chown
+> chgrp
+> chmod
+
+# Scripting
+> echo $SHELL (to find out the default scripting. BASH is the most common one)
 
 # Aliasing
 > alias lx = "ls -lX"
@@ -37,3 +57,4 @@ https://youtu.be/4P23_rhyTgc
 root user vs super user??
 how to sort listing of files by extension, timestamp, name and then by size?
 command to look at log files and tail those logs?
+sudo vs su?
