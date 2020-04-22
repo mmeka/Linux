@@ -26,6 +26,7 @@ Backslash(\) is the escape character. Use backslash before a space with director
 > cp <old_file_name> <new_file_name>
 > cp -R <directory1> <directory2> (recursive copy. if the destination not present, new directory is created. otherwise, a new sub-directory with contents of source is copied to destination)
 > mv -i <file1> <file2> <destination_directory> (move multiple files to new destination. asks before overwriting)
+> mv -i <file1> <file2> <destination_directory>/ (extra slash at the end says intention is not replace existing file.)
 > mv <file_name> <new_file_name> (to rename file)
 > mv <directory> <destination_directory> (if new directory exists, old one along with it's contents will be moved into the new one. if new one doesn't exist, just a rename happens.)
 > ls -a (to list hidden files and directories. Files prefixed with a dot.)
@@ -99,6 +100,15 @@ Users(U)-Group(G)-World(W) (World or Others literally means those that are neith
 https://youtu.be/4P23_rhyTgc
 https://www.youtube.com/channel/UCTfabOKD7Yty6sDF4POBVqA
 
+# Ubuntu
+> sudo apt update -yy(update Ubuntu)
+> sudo apt dist-upgrade -yy
+
+# System information
+> free -h (free memory)
+> df -h (disk free memory)
+> uptime (time since last reboot)
+
 # Questions
 root user vs super user??
 bashrc vs bashprofile
@@ -120,3 +130,4 @@ Any commands to be beware of that would damage the system?
 How to color code the things on the Terminal?
 What is 'locate' command?
 How to combine more than one command for execution?
+What are some package managers? How to use them?
