@@ -11,6 +11,8 @@ Putty - always use the installer version. Standlone will not work. Choose SSH op
 This touch command updates the last modified date. helps in force backup.
 
 # File system navigation
+Ext4 - is the de facto choice for the file system.
+Use "Directory" instead of "Folder"
 Backslash(\) is the escape character. Use backslash before a space with directory name.
 > cd -   ( to go back to previous visited directory)
 > cd ~ (home directory)
@@ -79,9 +81,11 @@ Users(U)-Group(G)-World(W) (World or Others literally means those that are neith
 > kill <process_id>
 > kill -9 <process_id> (-9 is the option to kill an unresposive process)
 > kill -KILL <process_id> (force kill)
+> killall <process_name> (kills all the instances of a process)
 >ps -uX
 > ps -U <username> (lists processes running by the specific user)
 > ps -C <program_name> (shows all the programs of specific app)
+  
 
 # Commands
 > whatis <command_name> (gives brief explanation of a command)
@@ -93,6 +97,7 @@ Users(U)-Group(G)-World(W) (World or Others literally means those that are neith
 # References
 > man <command_name> (not every command has man page. example "cd")
 https://youtu.be/4P23_rhyTgc
+https://www.youtube.com/channel/UCTfabOKD7Yty6sDF4POBVqA
 
 # Questions
 root user vs super user??
@@ -114,3 +119,4 @@ how to compare two files side by side with highlighting? is there a merge capabi
 Any commands to be beware of that would damage the system?
 How to color code the things on the Terminal?
 What is 'locate' command?
+How to combine more than one command for execution?
