@@ -54,6 +54,17 @@ su
 > chown
 > chgrp
 > chmod
+Read - read content; read info; "ls" on a directory
+Write - write to, delete, rename, touch(??)
+Executable - "cd" into directory; executable a program file.
+R-W-X (4-2-1) [100-10-1] => Total (7) [111]
+Users(U)-Group(G)-World(W)
+> chmod +x <directory_name> (sets executable permission for U, G and W)
+> chmod G-r <directory_name> (G loses read permission)
+> chmod 700 <file_name> (meaning file gets RWX for Users; no one else got any permissions on it)
+(??) what it means having executable permission on a directory, but not read? That means, a user can't perform "ls" even inside that directory?
+(??) what does it mean the world to have read, write and execute. But not the user?
+(??) Here, user meaning author of that file? And, group meaning the one of the groups in which the user is part of?
 
 # Scripting
 > echo $SHELL (to find out the default scripting. BASH is the most common one)
