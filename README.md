@@ -3,7 +3,6 @@
 # System information
 > ip addr  (NOTE: ipconfig is deprecated.)
 
-
 # Remoting
 Putty - always use the installer version. Standlone will not work. Choose SSH option and port 22.
 
@@ -14,6 +13,7 @@ https://youtu.be/4P23_rhyTgc
 > touch zzz{1..10}.txt  to generate multiple files with a pattern
 
 # File system navigation
+Backslash(\) is the escape character. Use backslash before a space with directory name.
 > cd -   ( to go back to previous visited directory)
 > cd ~ (home directory)
 > cd /   (root directory)
@@ -32,6 +32,8 @@ https://youtu.be/4P23_rhyTgc
 > ls -ltr (to list files in long format sorted by timestamp latest first)
 > ls -d (only directories)
 > ls -R (to see whole directory hierarchical structure)
+> pushd <directory_name> (add the current directory name to the stack and navigates to that given directory. this helps in remembering the directory where you were previously. Use popd to switch back that directory.)
+> file <file_name>  (gives the brief information of the file)
 
 # Searching files
 > grep
@@ -71,8 +73,15 @@ su
 > ps -U <username> (lists processes running by the specific user)
 > ps -C <program_name> (shows all the programs of specific app)
 
+# Commands
+> whatis <command_name> (gives brief explanation of a command)
+>apropos time (pulls up all the commands that have to do with time)
+> which <command_name>
+> locate
+> history
+
 # References
-> man <command_name>
+> man <command_name> (not every command has man page. example "cd")
 
 # Questions
 root user vs super user??
@@ -85,3 +94,8 @@ sudo - how to increase the session time before re-authentication?
 ssh remote??
 how to kill a specific Java process among several of those? can a process be identified based on the port it uses?
 how to find process id by partial name?
+Is there a way to bookmark the directories in Linux?
+how to compare two files side by side with highlighting? is there a merge capability available?
+Any commands to be beware of that would damage the system?
+How to color code the things on the Terminal?
+What is 'locate' command?
