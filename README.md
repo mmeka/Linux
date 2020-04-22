@@ -58,7 +58,7 @@ Read - read content; read info; "ls" on a directory
 Write - write to, delete, rename, touch(??)
 Executable - "cd" into directory; executable a program file.
 R-W-X (4-2-1) [100-10-1] => Total (7) [111]
-Users(U)-Group(G)-World(W)
+Users(U)-Group(G)-World(W) (World or Others literally means those that are neither the owner nor in the group)
 > chmod +x <directory_name> (sets executable permission for U, G and W)
 > chmod G-r <directory_name> (G loses read permission)
 > chmod 700 <file_name> (meaning file gets RWX for Users; no one else got any permissions on it)
